@@ -1,0 +1,118 @@
+.navSelect li{
+    width: 150px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    list-style:none;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.selected{
+    border-left: 5px solid;
+    background: #f5f5f5;
+    color: #74b9ff;
+}
+.navSelect{
+    padding: 0;
+    float: left;
+}
+.list{
+    line-height: 36px;
+    padding: 50px 0;
+    border-left: 5px solid #00cec9;
+}
+
+.list input[type="submit"]{
+    outline: none;
+}
+
+.inputBtn{
+    border: none;
+    background: none;
+    padding: 0 6px;
+    line-height: 38px;
+}
+
+.inputSearch{
+    display: inline-block;
+    border:1px solid;
+    padding: 0 10px;
+    height: 38px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.inputSearch:hover{
+    background: #8395a7;
+    border: 1px solid  #8395a7;
+}
+
+.btb{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    border:1px solid #E6E6E6;
+}
+.btb:before{
+
+}
+.showBus{
+    padding: 10px;
+    /*box-shadow: 0px 0px 3px #c8d6e5;*/
+    height: 140px;
+    border: 1px solid;
+    border-left: 5px solid;
+    /*border-top-right-radius: 5px;*/
+}
+.iType{
+    text-align: center;
+    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    display: block;
+    line-height: 18px;
+    border-radius: 50%;
+    color: black;
+    margin-bottom: 10px;
+}
+.divType{
+    width: 20px;
+    height: 100px;
+    margin: 15px 10px;
+    font-size: 16px;
+    overflow: hidden;
+}
+.divType:hover{
+    overflow: visible;
+}
+.aType{
+    text-decoration: none;
+    color: #000;
+}
+.aType:hover{
+    color: #74b9ff;
+    text-decoration: none;
+}
+.h4Click{
+    text-align: center;
+    -webkit-transform: translateY(-22px);
+    -moz-transform: translateY(-22px);
+    -ms-transform: translateY(-22px);
+    -o-transform: translateY(-22px);
+    transform: translateY(-22px);
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
+    transition: .8s;
+}
+.h4Click:hover{
+    background: #a8a8a8;
+}
+
+input::-webkit-calendar-picker-indicator{
+    display: none;
+    -webkit-appearance: none;
+}

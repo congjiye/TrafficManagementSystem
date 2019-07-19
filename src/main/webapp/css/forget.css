@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #eeeeee;
+}
+.forgetForm {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.forgetUl{
+    /*background: #00b894;*/
+    height: 40px;
+    margin-top: 60px;
+}
+.forgetUl table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+.forgetUl table tr td{
+    width: 25%;
+    text-align: center;
+    border: none;
+}
+.forgetUl ul{
+    list-style: none;
+    line-height: 40px;
+}
+.forgetUl ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.forgetI{
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #eeeeee;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 30px;
+    font-style: normal;
+    margin-left: 82px;
+    margin-top: -8px;
+    /*border: 5px solid #00b894;*/
+}
+.trangle{
+    background: #eeeeee;
+    height: 15px;
+}
+.select{
+    background: #10ac84;
+}
+.submitForm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+}
+.spanSelect{
+    color: #10ac84;
+}
+.inputBox{
+    width: 500px;
+    height: 50px;
+    margin-left: 80px;
+}
+.submitBtn{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #e17055;
+    color: white;
+    transition: .8s;
+}
+.submitBtn:hover{
+    background: rgba(225, 112, 85,.8);
+}
+.forgetForm .back{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.forgetForm .back a{
+    text-decoration: none;
+    color: black;
+    transition: .4s;
+    font-size: 16px;
+}
+.forgetForm .back a:hover{
+    color: deepskyblue;
+}
+.inputEmail{
+    padding: 7px 5px;
+    width: 320px;
+    font-size: 14px;
+    border: 1px solid #e3e3e3;
+    color: #e3e3e3;
+}

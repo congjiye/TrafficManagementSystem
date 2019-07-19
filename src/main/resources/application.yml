@@ -1,0 +1,27 @@
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+    favicon:
+      enabled: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/graduation?useSSL=false&serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+#    show-sql: true
+  mail:
+    host: smtp.qq.com
+    username: 1634392806@qq.com
+    password: gwhnvtwicblqdihf
+    default-encoding: utf-8
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
